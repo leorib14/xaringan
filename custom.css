@@ -1,0 +1,126 @@
+/* Cores da ArcelorMittal */
+.orange       { color: #FF3700}
+.grey         { color: #C5BCA4}
+.dark_grey    { color: #696969}
+.pale_grey    { color: #DCD4C2}
+.purple       { color: #865F7F}
+.light_purple { color: #8B819E}
+.blue         { color: #5C7F92}
+.light_blue   { color: #9DB1C9}
+.green        { color: #70A489}
+.light_green  { color: #BAC48C}
+.tan          { color: #C88F42}
+.light_tan    { color: #AA9E6E}
+.white        { color: white;}
+
+/* Tamanho das fontes */
+.font70  { font-size: 70%;}
+.font80  { font-size: 80%;}
+.font90  { font-size: 90%;}
+.font110 { font-size: 110%;} 
+.font120 { font-size: 120%;} 
+.font130 { font-size: 130%;} 
+.font140 { font-size: 140%;} 
+.font150 { font-size: 150%;} 
+.font160 { font-size: 160%;} 
+.font170 { font-size: 170%;} 
+.font180 { font-size: 180%;} 
+.font190 { font-size: 190%;} 
+.font200 { font-size: 200%;} 
+
+/* Cor e família da fonte do texto dos slides*/
+body {
+  font-family: Arial, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-weight: normal;
+  color: #696969;
+}
+
+/* Cor e família da fonte dos títulos */
+h1, h2, h3 {
+  font-family: Arial;
+  font-weight: normal;
+  color: #FF3700;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: Arial, 'Lucida Console', Monaco, monospace;
+}
+
+/* Configuração texto links */
+a, a > code {
+  color: #C88F42;
+  text-decoration: underline;
+}
+
+/* Centralizar figuras matendo a posição do título */
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/* Slide de divisão carro */
+
+ .body-yellow > h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+.carro {
+  background-image: url(https://i.stack.imgur.com/OSrg8t.png);
+  background-size: contain;
+}
+
+
+/* testes
+ 
+ol {
+  counter-reset: my-counter;
+  list-style: none;
+}
+
+ol li {
+  counter-increment: my-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(my-counter);
+  color: #FF3700;
+  font-size: 100%;
+  position: absolute;
+  left: -60px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.title-slide {
+  background-image: url(figuras/PNG.png), url(figuras/JM.jpg);
+  background-position: 95% 5%, 50% 50%;
+  background-size: 20%, cover;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+div.my-footer {
+content: "";
+    position: absolute;
+    bottom: 15px;
+    right:   8px;
+    height: 40px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("Rlogo.png");
+}
+
+*/
