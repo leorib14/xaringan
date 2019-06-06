@@ -64,17 +64,19 @@ a, a > code {
 
 
 /* Slide de divisão carro */
-
- .body-yellow > h2 {
-  font-size: 42px;
-  text-transform: uppercase;
-  padding-left: 50px;
-}
 .carro {
-  background-image: url(https://i.stack.imgur.com/OSrg8t.png);
-  background-size: contain;
+  background-image: url(figuras/PNG.png), url(figuras/JM.jpg);
+  background-position: 95% 5%, 50% 50%;
+  background-size: 20%, cover;
 }
 
+.carro .remark-slide-number {
+  display: none;
+}
+
+.carro h1, .carro h2, .carro h3 {
+  color: white;
+}
 
 /* testes
  
